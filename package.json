@@ -1,0 +1,23 @@
+{
+  "name": "supadata-social-transcriber",
+  "version": "1.0.0",
+  "description": "Multi-platform video transcription pipeline for YouTube, TikTok, and Instagram using Supadata SDK",
+  "main": "transcribe.js",
+  "scripts": {
+    "start": "node transcribe.js",
+    "batch": "node batch.js"
+  },
+  "keywords": [
+    "supadata",
+    "youtube-transcript",
+    "tiktok-transcript",
+    "instagram-reels",
+    "video-transcription",
+    "ai-transcriber"
+  ],
+  "author": "1tuberus",
+  "license": "MIT",
+  "dependencies": {
+    "@supadata/js": "^1.4.0"
+  }
+}
